@@ -10,5 +10,7 @@ class TokenizerService(spellCheckerSvc: SpellCheckerService):
     * @return A Tokenizer which allows iteration over the tokens of the input
     */
   // TODO - Part 1 Step 3
-  def tokenize(input: String): Tokenized = ???
+  // TODO - Part 2 Step 1
+  def tokenize(input: String): Tokenized =
+    ???
 end TokenizerService

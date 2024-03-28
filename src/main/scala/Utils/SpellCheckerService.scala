@@ -25,9 +25,11 @@ trait SpellCheckerService:
 end SpellCheckerService
 
 class SpellCheckerImpl(val dictionary: Map[String, String]) extends SpellCheckerService:
-  // TODO - Part 1 Step 2
-  def stringDistance(s1: String, s2: String): Int = ???
+  def stringDistance(s1: String, s2: String): Int =
+    // TODO - Part 1 Step 2
+    ???
 
-  // TODO - Part 1 Step 2
-  def getClosestWordInDictionary(misspelledWord: String): Option[String] = ???
+  def getClosestWordInDictionary(misspelledWord: String): Option[String] =
+    // TODO - Part 1 Step 2
+    ???
 end SpellCheckerImpl
