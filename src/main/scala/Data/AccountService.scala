@@ -33,7 +33,6 @@ trait AccountService:
   def purchase(user: String, amount: Double): Option[Double]
 
 class AccountImpl extends AccountService:
-  // TODO - Part 2 Step 2
 
   def getAccountBalance(user: String): Double = 
     ???

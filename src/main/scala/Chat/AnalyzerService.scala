@@ -13,7 +13,6 @@ class AnalyzerService(productSvc: ProductService,
     // you can use this to avoid having to pass the session when doing recursion
     val inner: ExprTree => String = reply(session)
     t match
-      // TODO - Part 2 Step 3
       // Example cases
       case Thirsty => 
         "Eh bien, la chance est de votre côté, car nous offrons les meilleures bières de la région !"

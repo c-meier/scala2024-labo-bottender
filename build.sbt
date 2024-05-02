@@ -10,4 +10,9 @@ lazy val root = project
         "org.scalactic" %% "scalactic" % "3.2.18",
         "org.scalatest" %% "scalatest" % "3.2.18" % "test",
     ),
+    fork := true,  // Required if you want to use sbt run
+    libraryDependencies ++= List(        
+        "com.lihaoyi" %% "scalatags" % "0.13.1",
+        "com.lihaoyi" %% "cask" % "0.9.2",
+    ),
   )
